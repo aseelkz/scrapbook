@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  >
+  
+           <ImageView
+               android:id="@+id/easter"
+               android:layout_width="216dp"
+               android:layout_height="0dp"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="2.92"
+               android:adjustViewBounds="true"
+               android:scaleType="centerCrop"
+               android:src="@drawable/easterheads" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="@string/easter"
+           />
+
+  <ImageView
+      android:id="@+id/egypt"
+      android:layout_width="209dp"
+      android:layout_height="0dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_weight="2.58"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/egyptpyr" />
+  
+       <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/name_egypt"
+  />     
+      
+       <ImageView
+           android:id="@+id/great"
+           android:layout_width="217dp"
+           android:layout_height="0dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_weight="3.00"
+           android:adjustViewBounds="true"
+           android:scaleType="centerCrop"
+           android:src="@drawable/greatwall" />
+
+            <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/name_great"
+  />     
+       
+        <ImageView
+            android:id="@+id/stone"
+            android:layout_width="206dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3.00"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/stonehenge" />
+
+             <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/name_stone"
+  />     
+
+</LinearLayout>

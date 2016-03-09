@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">صحف و صور</string>
+    <string name="hello_world">مرحبة يا عالم</string>
+    <string name="action_settings">اعدادات</string>
+    <string name="easter">تماثيل جزيرة القيامة</string>
+    <string name="name_egypt">اهرام الجيزة</string>
+    <string name="name_great">سور صين العظيم</string>
+    <string name="name_stone">ستونهنج</string>
+
+</resources>
